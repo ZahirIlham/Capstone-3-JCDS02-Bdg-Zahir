@@ -59,7 +59,7 @@ Maka dapat kita simulasikan perhitungan berikut:
 
 Berdasarkan konsekuensinya, maka sebisa mungkin yang akan kita lakukan adalah membuat model yang dapat mengurangi customer berhenti langganan (*churn*) dari perusahaan tersebut. Meminimalisasi prediksi **False Negative** (pelanggan yg diprediksi tidak *churn* namun aktual *churn*) menjadi fokus utama kita. Maka metric utama yang akan kita gunakan adalah f beta score 2 karena kita menganggap **Recall** lebih penting daripada **Precision**. Dengan kata lain kita lebih fokus untuk memperkecil error false negatif alih-alih false positif.
 
-## **2. Data Understanding**
+## **Data Understanding**
 Dataset yang kita miliki memiliki informasi sebagai berikut :
 
 - Jumlah baris sebanyak 4930 baris
